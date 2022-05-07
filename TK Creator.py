@@ -341,6 +341,7 @@ if __name__ == "__main__":
     root = tk.Tk()
     root.config(bg="white")
     root.title("Main")
+    root.state('zoomed')
     wc = WidgetManager(root=root)
     wc.main()
     root.mainloop()
