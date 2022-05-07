@@ -17,3 +17,5 @@ Shortcuts:
  - Left click on the widget added through the `Create Widget` window to move them. You can also use arrow keys to move widget.
  - Middle click to bring `Create Widget` window if you have accidently closed it.
  - Right click on the widgets to edit its properties. 
+
+The best thing is **there's no dependency**. Just have Python and start working.
