@@ -43,6 +43,25 @@ class Movement:
 
 
 class WidgetMethod(Movement):
+    def ShowAttributes(self, root, widget):
+        Attribute_frame = tk.LabelFrame(
+            root, text="Valid Attributes Values", bg="white"
+        )
+        Attribute_frame.pack()
+
+        attri_container = lb(Attribute_frame, width=50, height=30, bg="white")
+        attri_container.pack()
+
+        attribute_list = [i for i in widget.keys()]
+
+        for key in attribute_list:
+            attri_container.insert(tk.END, key)
+        try:
+            for key, value in widget.place_info().items():
+                attri_container.insert(tk.END, f"{key}: {value}")
+        except Exception as e:
+            print(e)
+
     def Create(self, widget_name, root, destroy_toplevel):
         widget_attributes = self.take_attributes(
             label="Enter Vaild Attributes: ",
@@ -92,6 +111,8 @@ class WidgetMethod(Movement):
             Attri_take.title(options.get("title"))
             Attri_take.config(bg="white")
             Attri_take.grab_set()
+            self.ShowAttributes(root=Attri_take, widget=widget_ref)
+            widget_ref.destroy()
         else:
             root = options.get("mroot")
             Attri_take = options.get("root")
