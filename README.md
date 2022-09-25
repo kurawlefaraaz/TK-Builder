@@ -10,6 +10,12 @@ With TK Creator you can change the UI in the runtime, which saves your precise t
 TK Creator allows you to use and make changes to almost all widgets available in Tkinter and Themed Tkinter. Currently TK Creator works best with Tkinter widget and partially works with Themed Tkinter.
 
 Execute Code buttons allows you to type the UI code and reflects the changes made to the specified widget.  It can be use to add images or Tkinter Variables in the widgets. It can also be used to change the geometry manager of the widget.
+```
+# Example to use use Execute code
+from tkinter import *    # Important to declare as it uses eval
+
+root.nametowidget('but1').config(bg='green')
+```
 
 TK Creator uses `place` geometry manager to manage the widget. You can change it by typing code in `Execute code button`.
 
