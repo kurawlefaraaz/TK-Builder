@@ -15,7 +15,9 @@ Develeopers who have used tkinter as thier GUI may have noticed how much time it
 With TK Builder you can change the UI in the runtime, which saves your precise time getting wasted by restarting the whole application. It allows you to use and make changes to almost all widgets available in Tkinter and Themed Tkinter.
 
 Some Major use case of Tkinter Builder may be:
+
 	1. Education: Teachers can use this to demostrate each option of a Tkinter widget.
+ 
 	2. Development: Developers Who want to build application using Python and tkinter.
 
 Tkinter Designer is a RAD(Rapid Application Development) tool which is used to design User Interface using Tkinter. 
