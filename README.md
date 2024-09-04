@@ -7,7 +7,7 @@ This project is his first full fledget application which is intended to be used 
 
 It all started with Faraaz building on new projects but completing none of them due to the time it takes to design the User Interface. So he decided to explore for tools to assist in his projects.
 
-Many tools are present on the web for example Pygubu-Designer and PAGE, and none provided one and only requirment: Interact with widgets using code.
+Many tools are present on the web for example Pygubu-Designer and PAGE, and none provided one and only requirment: **Interact with widgets using code.**
 Therefore on set his journey for creating his own Tkinter Builder!
 
 Develeopers who have used tkinter as thier GUI may have noticed how much time it takes to design just a single frame! Tweeking with colors and geometry managers take so much time since even a minute of change requires whole application to be restarted.
